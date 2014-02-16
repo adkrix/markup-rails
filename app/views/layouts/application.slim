@@ -8,16 +8,16 @@ html
     = csrf_meta_tags
 
   body
-    nav.navbar.navbar-default role="navigation"
+    nav.navbar.navbar-inverse role="navigation"
       .container
         .navbar-header
-          button.navbar-toggle data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"
+          button.navbar-toggle data-target="#navbar-collapse" data-toggle="collapse" type="button"
             span.sr-only Toggle navigation
             span.icon-bar
             span.icon-bar
             span.icon-bar
           a.navbar-brand href="#" Brand
-        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+        #navbar-collapse.collapse.navbar-collapse
           ul.nav.navbar-nav
             li.active: a href="#" Link
             li: a href="#" Link
@@ -35,7 +35,7 @@ html
                 li: a href="#" One more separated link
           form.navbar-form.navbar-left role="search"
             .form-group
-              input.form-control placeholder="Search" type="text"
+              input.form-control type="text" placeholder="Search"
             button.btn.btn-default type="submit" Submit
           ul.nav.navbar-nav.navbar-right
             li: a href="#" Link
@@ -52,8 +52,6 @@ html
     header
       .container
         h1.text-center My Super Site
-
-
 
     .container
       .row
@@ -82,6 +80,8 @@ html
               | Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
               | Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
 
-
+    footer
+      .text-center
+        | &copy; 2014 Site
 
 
