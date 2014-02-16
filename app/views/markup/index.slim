@@ -1,0 +1,75 @@
+.alert.alert-danger
+  .close data-dismiss="alert" aria-hidden="true" &times;
+  | Data was saved
+  a.alert-link< href="#" now
+h1 Markup Rails
+
+table class="table"
+  thead
+    tr
+      th #
+      th First Name
+      th Last Name
+      th Username
+  tbody
+    tr
+      td 1
+      td Mark
+      td Otto
+      td @mdo
+    tr
+      td 2
+      td Jacob
+      td Thornton
+      td @fat
+    tr
+      td 3
+      td Larry
+      td the Bird
+      td @twitter
+
+.panel-group#accordion
+  .panel.panel-default
+    .panel-heading
+      h4.panel-title
+        a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" Collapsible Group Item #1
+    #collapseOne.panel-collapse.collapse.in
+      .panel-body
+        p Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+        p 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+        p Food truck quinoa nesciunt laborum eiusmod.
+  .panel.panel-default
+    .panel-heading
+      h4.panel-title
+        a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" Collapsible Group Item #2
+    #collapseTwo.panel-collapse.collapse
+      .panel-body
+        p Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+        p 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+        p Food truck quinoa nesciunt laborum eiusmod.
+
+
+/-- Button trigger modal
+button.btn.btn-primary data-toggle="modal" data-target="#myModal" Modal form
+
+/-- Modal
+.modal.fade#myModal tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
+  .modal-dialog
+    .modal-content
+      form role="form" action="#"
+        .modal-header
+          button.close type="button" data-dismiss="modal" aria-hidden="true" &times;
+          h4.modal-title#myModalLabel Modal title
+        .modal-body
+          .form-group
+            label for="exampleInputEmail1" Email address
+            input.form-control#exampleInputEmail1 placeholder="Enter email"
+          .form-group
+            label for="exampleInputPassword1" Password
+            input.form-control type="password" class="" id="exampleInputPassword1" placeholder="Password"
+          .checkbox
+            label
+              input type="checkbox" Check me out
+        .modal-footer
+          button.btn.btn-default type="button" data-dismiss="modal" Close
+          button.btn.btn-primary type="button" Submit
