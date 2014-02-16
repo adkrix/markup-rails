@@ -57,5 +57,7 @@ You can see it by link [http://0.0.0.0:3000/markup/users](http://0.0.0.0:3000/ma
 
 ### Icons
 
+See [helpers](https://github.com/bokmann/font-awesome-rails/blob/master/README.md#helpers)
+
 * `= fa_icon "camera-retro"`
 * `= fa_icon "camera", text: "@fat"`
