@@ -1,9 +1,7 @@
 markup-rails
 ============
 
-### Rails template for professional markup for ruby on rails projects.
-
-#### For frontend developers
+### Professional markup for ruby on rails projects. (Nice frontend)
 
 Deploy locally
 --------------
