@@ -22,6 +22,7 @@ Technologies
 * [Bootstrap Form](https://github.com/potenza/bootstrap_form)
 * [Compass] (http://compass-style.org/reference/compass/)
 and [alternative documentation](http://compass.aether.ru/)
+* [AweSome font](http://fortawesome.github.io/Font-Awesome/icons/)
 
 Frontend Development
 --------------------
@@ -54,3 +55,7 @@ Use Slim HTML pre-processor. Save template files in `app/views/markup`.
 For example, you created file `app/views/markup/users.slim`.
 You can see it by link [http://0.0.0.0:3000/markup/users](http://0.0.0.0:3000/markup/users)
 
+### Icons
+
+* `= fa_icon "camera-retro"`
+* `= fa_icon "camera", text: "@fat"`

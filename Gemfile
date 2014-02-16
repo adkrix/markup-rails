@@ -7,6 +7,7 @@ gem 'sqlite3', '~> 1.3.8'
 gem 'sass-rails', '~> 4.0.1'
 gem "compass-rails", "~> 1.1.3"
 gem 'bootstrap-sass', '~> 3.1.1.0'
+gem "font-awesome-rails", "~> 4.0.3.1"
 
 gem "slim", "~> 2.0.2"
 gem "bootstrap_form", "~> 2.0.1"

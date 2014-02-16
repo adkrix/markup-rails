@@ -16,17 +16,19 @@ table class="table"
       td 1
       td Mark
       td Otto
-      td @mdo
+      td
+        = fa_icon "camera-retro"
+        |  @mdo
     tr
       td 2
-      td Jacob
+      td Larry
       td Thornton
-      td @fat
+      td = fa_icon "camera", text: "@fat"
     tr
       td 3
-      td Larry
+      td Jacob
       td the Bird
-      td @twitter
+      = content_tag(:td, fa_icon("mobile-phone", text: "@twitter"))
 
 .panel-group#accordion
   .panel.panel-default
