@@ -22,6 +22,8 @@ Technologies
 * [SASS](http://sass-lang.com/documentation/file.INDENTED_SYNTAX.html)
 * [Bootstrap 3.1](http://getbootstrap.com/)
 * [Bootstrap Form](https://github.com/potenza/bootstrap_form)
+* [Compass] (http://compass-style.org/reference/compass/)
+and [alternative documentation](http://compass.aether.ru/)
 
 Frontend Development
 --------------------
@@ -38,11 +40,8 @@ Frontend Development
 
 Add files beginning underscore for every modules. For example `_users.sass`. In `main.sass` add `@import "users"`
 
-Use Compass for creating cross-browser CSS
-> .element
->>  +border-radius(12px)
->>  +transition( top 0.3s ease-out, background .9s .5s ease-out )
-
+Use Compass for creating cross-browser CSS `+border-radius(12px)`
+or `+transition( top 0.3s ease-out, background .9s .5s ease-out )`
 
 ### JavaScript
 
